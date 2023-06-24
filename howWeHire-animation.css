@@ -1,0 +1,59 @@
+.my-heading {
+  text-align: center;
+  color: #191919;
+  font-size: 3rem;
+  line-height: 1.6rem;
+  transform-origin: center;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  transform: scale(1);
+  font-family: "Bungee Spice", cursive;
+}
+.my-heading:hover,
+.rules:hover ,
+.bounce:hover,
+.contact-heading:hover,
+.contact-info:hover{
+  animation: pulse 2s;
+}
+.rules {
+  text-align: center;
+  color: #191919;
+  font-size: 1.4rem;
+  transform-origin: center;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  font-family: 'Instrument Serif', serif; 
+}
+
+.bounce {
+  text-align: center;
+  color: #191919;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  transform-origin: center;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  transform: scale(1);
+  font-family: "Dongle", monospace;
+  text-transform: uppercase;
+
+}
+/* Define the default styling for the contact heading */
+.contact-heading {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  color: whitesmoke;
+  transform: scale(1);
+  font-family: "Dongle", monospace;
+}
+
+/* Define the default styling for the contact information */
+.contact-info {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+}

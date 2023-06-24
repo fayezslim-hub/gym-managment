@@ -1,0 +1,175 @@
+h1:hover {
+  animation-name: headShake;
+  animation-duration: 1s;
+}
+
+/* Ensure that the element is displayed as a block element */
+h1 {
+  display: block;
+  font-size: 3rem;
+  font-weight: bold;
+  color: black;
+  font-family: "Bungee Spice", cursive;
+}
+
+/* Apply the animation to the element */
+.t1 {
+  font-size: 4rem;
+  font-family: "Bungee Spice", cursive;
+  display: inline-block;
+}
+
+/* Apply the animation when hovering over the element */
+.t1:hover,
+.t2:hover,
+#ht:hover,
+h3:hover,
+.gr:hover,
+.contact-heading:hover,
+.contact-info:hover,
+.title-box .custom-swing:hover {
+  animation-name: pulse;
+  animation-duration: 2s;
+}
+
+/* Apply the animation to the element */
+.t2 {
+  font-size: 2rem;
+  color: black;
+  font-family: "Roboto Serif", serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 3rem; /* adds 3rem margin to the top */
+  margin-bottom: 3rem; /* adds 3rem margin to the bottom */
+}
+
+/* Apply the animation to the element */
+#ht {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Roboto Serif", serif;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+/* Define the default styling for the element */
+.offer {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Bungee Spice", cursive;
+}
+
+.offer:hover {
+  animation-name: shakeX;
+  animation-duration: 6s;
+}
+
+/* Define the default styling for the element */
+h3 {
+  text-align: left;
+  padding-top: 1.2rem;
+  color: #191919;
+  font-size: 1.2rem;
+  line-height: 2.6rem;
+  font-weight: bold;
+  font-family: "Roboto Serif", serif;
+  transform-origin: top center;
+}
+
+/* Define the default styling for the contact heading */
+.contact-heading {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  color: whitesmoke;
+  transform: scale(1);
+  font-family: "Dongle", monospace;
+}
+
+/* Define the default styling for the contact information */
+.contact-info {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+}
+
+.custom-swing {
+  text-align: left;
+  padding-right: 3rem;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  font-weight: bold;
+  font-family: "Bungee Spice", cursive;
+  transform-origin: top center;
+}
+
+.custom-swing-label {
+  text-align: left;
+  padding-right: 3rem;
+  color: #191919;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  transform-origin: center;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  transform: scale(1);
+  font-family: "Dongle", monospace;
+  transform-origin: top center;
+}
+
+/* Apply the animation to the element when it is being hovered over */
+.custom-swing-label:hover,
+.custom-offer:hover {
+  animation-name: shakeX;
+  animation-duration: 3s;
+}
+
+.custom-offer {
+  text-align: center;
+  padding-right: 3rem;
+  font-size: 3rem;
+  line-height: 3rem;
+  font-weight: bold;
+  font-family: "Bungee Spice", cursive;
+}
+
+.card-body:hover {
+  animation-name: animate__flip;
+  animation-duration: 1 s;
+}
+
+.card-title,
+.card-text {
+  text-align: center;
+  color: #191919;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  transform: scale(1);
+  font-family: 'Braah One', sans-serif;
+  margin-top: 20px;
+}
+@media (max-width: 768px) {
+  h1:hover,
+  .t1:hover,
+  .t2:hover,
+  #ht:hover,
+  h3:hover,
+  .gr:hover,
+  .contact-heading:hover,
+  .contact-info:hover,
+  .title-box .custom-swing:hover,
+  .offer:hover,
+  .custom-swing-label:hover,
+  .custom-offer:hover,
+  .card-body:hover {
+    animation-name: none !important;
+    animation-duration: 0s !important;
+  }
+}

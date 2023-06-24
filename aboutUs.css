@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #fff;
+  color: #191919;
+  font-family: "Pacifico", cursive;
+  text-align: center;
+}
+
+.navbar-brand,
+.navbar-nav {
+  font-family: "Dongle", monospace;
+  font-weight: bold;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  line-height: 1.6rem;
+  letter-spacing: 0.1rem;
+  padding-left: 2rem;
+}
+
+.navbar-nav {
+  padding-right: 2rem;
+}
+
+.machines {
+  padding: 10px;
+  border-radius: 15%;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.machine {
+  border-radius: 5%;
+  max-width: 90%;
+}
+
+.ourEquipments {
+  margin: 4rem 0 2rem;
+}
+
+.eq,
+.card {
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.eq {
+  padding: 2rem 0;
+  margin: 2rem 0;
+}
+
+.eq:hover,
+.card:hover {
+  background-color: darkgrey;
+  color: #fff;
+}
+
+.section-6 {
+  background-color: #191919;
+  color: #fff;
+  margin-top: 4rem;
+  padding: 3rem 0 4rem;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 20px;
+  margin: 1rem;
+}
+
+.card-title {
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.contact-us-container {
+  display: flex;
+  align-items: center;
+}
+
+.title-page {
+  margin: 1rem 0;
+  text-align: center;
+  font-family: "Bungee Spice", cursive;
+  font-size: 2rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  color: #ff9800;
+}
+
+h2,
+.marg {
+  font-size: 3rem;
+  font-family: "Poltawski Nowy", serif;
+  color: #1e1e1e;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+h4 {
+  padding-bottom: 6rem;
+  font-family: "Aref Ruqaa Ink", serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #4a4a4a;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  letter-spacing: 0.5px;
+  line-height: 1.6;
+}
+
+.title-page:hover,
+h2:hover,
+h3:hover,
+h4:hover {
+  animation-name: pulse;
+  animation-duration: 2s;
+}
+
+.icon-contact-us,
+.icon-phone-call,
+.icon-mail {
+  display: inline-block;
+  background-size: cover;
+  margin-right: 20px;
+  width: 45px;
+  height: 45px;
+}
+
+.icon-contact-us {
+  background-image: url("pics/contact-us.png");
+  margin-bottom: 100px;
+}
+
+.icon-phone-call {
+  background-image: url("pics/phone-call.png");
+  margin-bottom: 10px;
+  width: 60px;
+  height: 60px;
+}
+
+.contact-heading,
+.contact-info {
+  font-family: "Dongle", monospace;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.contact-heading {
+  text-align: center;
+  font-size: 3rem;
+  color: whitesmoke;
+  transform: scale(1);
+}
+
+.contact-info {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: white;
+}
+
+@media (max-width: 991px) {
+  .title-page:hover,
+  h2:hover,
+  h3:hover,
+  h4:hover,
+  .disable-animation {
+    animation: none !important;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  .marg {
+    font-size: 2rem;
+  }
+
+  .contact-heading {
+    font-size: 2rem;
+  }
+
+  .trainer-image {
+    width: 100%;
+  }
+
+  .icon-contact-us,
+  .icon-phone-call,
+  .icon-mail {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .title-page:hover,
+  h2:hover,
+  h3:hover,
+  h4:hover,
+  .disable-animation {
+    animation: none !important;
+  }
+
+  .contact-us-container {
+    flex-direction: column;
+  }
+
+  .icon-contact-us {
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+}

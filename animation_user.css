@@ -1,0 +1,78 @@
+/* Styles for screens 600px and larger */
+@media (min-width: 600px) {
+  #welcome:hover,
+  .title:hover {
+    animation-name: pulse;
+    animation-duration: 1s;
+  }
+  
+  .title1 {
+    animation: bounce 1s ease-in-out ;
+  }
+
+  .page-title2:hover {
+    animation: pulse 1s ease-in-out;
+  }
+
+  .header {
+    animation: pulse 1s ease-in-out ;
+  }
+
+  .card-group:hover {
+    animation: shake 1s ease-in-out;
+  }
+}
+
+/* Styles for screens smaller than 600px */
+@media (max-width: 599px) {
+  #welcome:hover,
+  .title:hover {
+    animation-name: pulse;
+    animation-duration: 1s;
+  }
+  
+  .title1 {
+    animation: bounce 1s ease-in-out ;
+  }
+
+  .page-title2:hover {
+    animation: pulse 1s ease-in-out;
+  }
+
+  .header {
+    animation: pulse 1s ease-in-out ;
+  }
+
+  .card-group:hover {
+    animation: shake 1s ease-in-out;
+  }
+}
+
+/* Define the pulse animation using keyframes */
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+  }
+  
+  /* Define the flip animation using keyframes */
+  @keyframes flip {
+  from { transform: rotateY(0deg); }
+  to { transform: rotateY(180deg); }
+  }
+  
+  /* Define the reverse flip animation using keyframes */
+  @keyframes flip-back {
+  from { transform: rotateY(180deg); }
+  to { transform: rotateY(0deg); }
+  }
+  
+  /* Define the shaking animation using keyframes */
+  @keyframes shake {
+  0% { transform: translateX(0); }
+  20% { transform: translateX(-10px); }
+  40% { transform: translateX(10px); }
+  60% { transform: translateX(-10px); }
+  80% { transform: translateX(10px); }
+  100% { transform: translateX(0); }
+  }

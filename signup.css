@@ -1,0 +1,407 @@
+/* Default styles */
+body {
+  margin: 0;
+  background-color: #fff;
+  color: #191919;
+  font-family: "Pacifico", cursive;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  line-height: 1.6rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  font-family: "Dongle", monospace;
+  text-shadow: 1px 1px #999; 
+  padding-left: 2rem;
+
+}
+
+.navbar-nav {
+  flex-direction: column;
+  align-items: center;
+  height: 40%;
+  font-weight: bold;
+  font-family: "Dongle", monospace;
+}
+
+.la {
+  text-align: left;
+}
+
+.btn {
+  border-radius: 40px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+#man {
+  padding-left: 10rem;
+}
+
+.login {
+  margin-top: 13rem;
+}
+
+.img-login {
+  width: 50%;
+  margin-left: 10rem;
+  max-width: 100%;
+  height: auto;
+}
+
+.hire {
+  margin-top: 5rem;
+}
+
+.l {
+  padding-top: 3rem;
+}
+
+.m {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.f {
+  width: 80%;
+}
+
+.a {
+  width: 50%;
+}
+
+.h-form {
+  padding-bottom: 4rem;
+}
+.my-form {
+background-color: rgba(255, 255, 255, 0.24);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+border: 1px solid rgba(255, 255, 255, 0.3);
+padding: 20px;
+}
+
+.form-control:focus,
+.form-control:hover,
+.form-select:focus,
+.form-select:hover {
+  border-color: coral;
+  box-shadow: 0 0 0 0.2rem rgba(255, 127, 80, 0.25);
+}
+
+
+.form-group {
+  padding: 10px;
+}
+
+.la {
+  padding-left: 35px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+
+/* Keep the same color when button is active */
+.btn-primary:active,
+.btn-primary:disabled,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary {
+  background-color: coral;
+  border-color: coral;
+}
+
+/* Optional: Add a slight opacity change for the hover effect */
+.btn-primary:hover,
+.btn-primary:focus {
+  opacity: 0.9;
+}
+
+.my-form .form-check-input {
+  margin-right: 10px;
+}
+
+/* Hide the original radio button */
+.form-check-input[type="radio"] {
+  display: none;
+}
+
+/* Create a custom radio button using the label */
+.form-check-label {
+  position: relative;
+  padding-left: 30px;
+}
+
+.form-check-label:before {
+  content: "";
+  position: absolute;
+  left: -25px;
+  top: 50%;
+  width: 16px;
+  height: 16px;
+  border: 2px solid coral;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+}
+
+/* Create a small circle within the custom radio button */
+.form-check-input[type="radio"]:checked + .form-check-label:after {
+  content: "";
+  position: absolute;
+  left: -21px;
+  top: 50%;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  background-color: coral;
+  }
+  
+  /* Media queries for smaller screens */
+  @media (max-width: 1199px) {
+  .h-form {
+  padding-bottom: 3rem;
+  }
+}
+  
+  @media (max-width: 991px) {
+  .navbar-brand {
+  font-size: 150%;
+  }
+  
+  .hire {
+  margin-top: 4rem;
+  }
+  
+  .l {
+  padding-top: 2rem;
+  }
+  
+  .m {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  }
+  }
+  
+  @media (max-width: 768px) {
+  .navbar-brand {
+  font-size: 150%;
+  padding-left: 1rem;
+  }
+  
+  .navbar-nav {
+  padding-right: 1rem;
+  }
+  
+  #man {
+  padding-left: 5rem;
+  }
+  
+  .img-login {
+  width: 100%;
+  margin-left: 0;
+  }
+  
+  .f {
+  width: 100%;
+  }
+  
+  .a {
+  width: 100%;
+  }
+  }
+  
+  @media (max-width: 575px) {
+  .login {
+  margin-top: 8rem;
+  }
+  
+  .la {
+  padding-left: 25px;
+  }
+  
+  .form-check-label {
+  padding-left: 25px;
+  }
+  
+  .form-check-label:before {
+  left: -20px;
+  }
+  
+  .form-check-input[type="radio"]:checked + .form-check-label:after {
+  left: -16px;
+  }
+  }
+
+  /* Define animation */
+.name:hover{
+  position: relative;
+  animation: bounce 1s ease-in-out;
+}
+
+
+/* Define animation */
+.la:hover {
+  position: relative;
+  animation: bounce 1s ease-in-out;
+}
+
+.password-toggle-icon i {
+  font-size: 1.5rem;
+}
+
+.signup-title {
+  font-size: 3rem;
+  text-align: left;
+  margin-top: 3rem;
+  padding-left: 110px;
+  position: relative;
+  line-height: 1.8rem;
+  letter-spacing: 0.2rem;
+  font-weight: bold;
+  font-family: "Bungee Spice", cursive;
+  color: #FF7F50;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  }
+
+.signup-title:hover {
+  animation:pulse 2s ;
+}
+
+
+@media only screen and (max-width: 992px) {
+  .signup-title {
+    font-size: 2.5rem;
+    padding-left: 0;
+    position: static;
+    margin: 2rem 0;
+
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .signup-title {
+    font-size: 2rem;
+    padding-left: 0;
+    position: static;
+    margin: 2rem 0;
+   
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .signup-title {
+    font-size: 1.5rem;
+    padding-left: 0;
+    position: static;
+    margin: 3rem 0;
+
+  }
+}
+
+
+.join-container {
+  display: flex;
+  align-items: center; /* This will align the items vertically centered */
+}
+
+.signup-title {
+  margin-right: 10px; /* Add some space between the h2 and the image */
+  margin-top: 10px;
+}
+.icon-join {
+  background-image: url("pics/join.png");
+  background-size: cover;
+  background-position: center top 600px; /* Add this line */
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+}
+.icon-name {
+  background-image: url("pics/name.png");
+  background-size: cover;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+.icon-email {
+  background-image: url("pics/email.png");
+  background-size: cover;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+.icon-number {
+  background-image: url("pics/number.png");
+  background-size: cover;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+.icon-address{
+  background-image: url("pics/address.png");
+  background-size: cover;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+.icon-gender{
+  background-image: url("pics/gender.png");
+  background-size: cover;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+.icon-tall{
+  background-image: url("pics/tall.png");
+  background-size: cover;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+.icon-lose-weight{
+  background-image: url("pics/lose-weight.png");
+  background-size: cover;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+.icon-calc{
+  background-image: url("pics/calc.png");
+  background-size: cover;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+.icon-calendar{
+  background-image: url("pics/calendar.png");
+  background-size: cover;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}.icon-user{
+  background-image: url("pics/user.png");
+  background-size: cover;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+}
+.icon-gmail{
+  background-image: url("pics/gmail.png");
+  display: inline-block;
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+}
+.icon-padlock{
+  background-image: url("pics/padlock.png");
+  display: inline-block;
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+}

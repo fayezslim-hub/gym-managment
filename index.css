@@ -1,0 +1,466 @@
+* {
+  margin: 0; /* Reset margin to 0 for all elements */
+}
+.navbar-brand {
+  font-size: 1.5rem;
+  line-height: 1.6rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  font-family: "Dongle", monospace;
+  padding-left: 2rem;
+}
+body {
+  margin: 0; /* Set margin to 0 */
+  background-color: #fff; /* Set background color to white */
+  color: #191919; /* Set text color to black */
+  font-family: "Pacifico", cursive; /* Set font to Pacifico */
+  text-align: center; /* Center align text */
+}
+
+.navbar-nav {
+  font-weight: bold;
+  font-family: "Dongle", monospace;
+  padding-right: 2rem; /* Add padding to the right of the navbar navigation items */
+}
+.section-1 {
+  margin-top: 4rem; /* Set top margin for the first section of the page */
+  padding-bottom: 4rem; /* Set bottom padding for the first section of the page */
+  margin-bottom: 4rem; /* Set bottom margin for the first section of the page */
+}
+.ic {
+  color: darkgray;
+  text-align: center;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  margin: 4rem; /* adds 4rem margin */
+  transition: all 0.3s ease; /* sets transition effect for 0.3s */
+  cursor: pointer; /* sets cursor type to pointer */
+  border-radius: 20px;
+}
+
+.card:hover {
+  transform: none;
+  background-color: #fff; /* sets background color to dark gray on hover */
+  color: #fff; /* sets text color to white on hover */
+  transform: scale(1.2); /* scales element to 1.2 on hover */
+}
+
+.card-img-top {
+  border-radius: 10px 10px 0 0;
+}
+
+.titles {
+  text-align: left; /* aligns text to the left */
+  margin-top: 10rem; /* adds 10rem margin to the top */
+}
+
+.btn {
+  border-radius: 40px; /* sets border radius to 40px */
+  transition: all 0.3s ease; /* sets transition effect for 0.3s */
+}
+
+.btn:hover {
+  transform: scale(1.05); /* scales element to 1.05 on hover */
+}
+.section-2 {
+  color: #fff; /* sets text color to white */
+  background-color: #191919; /* sets background color to dark gray */
+  padding-bottom: 4rem; /* adds 4rem padding to the bottom */
+}
+.offer {
+  padding-top: 3rem; /* adds 3rem padding to the top */
+  padding-bottom: 7rem; /* adds 7rem padding to the bottom */
+}
+
+.weDo {
+  padding-top: 3rem; /* adds 3rem padding to the top */
+  padding-left: 3rem; /* adds 3rem padding to the left */
+  padding-right: 3rem; /* adds 3rem padding to the right */
+  padding-bottom: 3rem; /* adds 3rem padding to the bottom */
+  transition: all 0.3s; /* sets transition effect for 0.3s */
+  cursor: pointer; /* sets cursor type to pointer */
+}
+
+.weDo:hover {
+  background-color: aliceblue; /* sets background color to aliceblue on hover */
+  color: #191919; /* sets text color to dark gray on hover */
+}
+
+.ic,
+.section-3 {
+  margin-top: 3rem; /* adds 3rem margin to the top */
+}
+
+.gr {
+  padding-top: 3rem; /* adds 3rem padding to the top */
+  padding-bottom: 3rem; /* adds 3rem padding to the bottom */
+  color: #fff; /* sets text color to white */
+  font-family: "Instrument Serif", serif;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 50px; /* sets height to 50px */
+  width: 50px; /* sets width to 50px */
+  outline: black; /* sets outline to black */
+  background-color: #191919; /* sets background color to dark gray */
+}
+
+.section-4 {
+  padding-top: 8rem; /* adds 8rem padding to the top */
+  background-color: #191919; /* sets background color to dark gray */
+  margin-top: 4rem; /* adds 4rem margin to the top */
+  margin-bottom: 4rem; /* adds 4rem margin to the bottom */
+  padding-bottom: 4rem; /* adds 4rem padding to the bottom */
+  z-index: 0; /* sets z-index to 0 */
+}
+#carouselExampleControls {
+  z-index: 0; /* sets z-index to 0 */
+}
+
+.images {
+  width: 50%; /* sets width to 50% */
+  height: 100%; /* sets height to 100% */
+  border-radius: 100%; /* sets border radius to 100% */
+}
+
+.section-5 {
+  padding-top: 8rem; /* adds 8rem padding to the top */
+}
+
+.section-6 {
+  font-size: 1rem;
+  background-color: #191919; /* sets background color to dark gray */
+  color: #fff; /* sets text color to white */
+  margin-top: 4rem; /* adds 4rem margin to the top */
+  padding-top: 3rem; /* adds 3rem padding to the top */
+  padding-bottom: 4rem; /* adds 4rem padding to the bottom */
+}
+.label-text-height,
+.label-text-weight,
+.label-text-gender,
+.label-text-bmi {
+  padding-left: 10px; /* adjust the value as per your preference */
+  text-align: left;
+  padding-right: 3rem;
+  color: #191919;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  letter-spacing: 0.1rem;
+  font-weight: bold;
+  font-family: "Dongle", monospace;
+}
+
+.title-box {
+  display: flex; /* sets display to flex */
+  justify-content: center; /* aligns content to center */
+  align-items: center; /* aligns items to center */
+  height: 10vh; /* sets height to 10vh */
+}
+
+.title-box h2 {
+  font-size: 36px; /* sets font size to 36px */
+  margin-bottom: 50px; /* adds 50px margin to the bottom */
+}
+
+.title-box i {
+  font-size: 48px; /* sets font size to 48px */
+  margin-right: 15px; /* adds 15px margin to the right */
+}
+.my-form {
+  background-color: #fff; /* sets background color to white */
+  border-radius: 15px; /* sets border radius to 15px */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* sets box shadow effect */
+  padding: 20px; /* adds 20px padding */
+  margin: auto; /* centers element horizontally */
+}
+
+.my-form label {
+  font-size: 16px; /* sets font size to 16px */
+  font-weight: bold; /* sets font weight to bold */
+  margin-bottom: 10px; /* adds 10px margin to the bottom */
+}
+
+.my-form input[type="number"] {
+  border: none; /* removes border */
+  border-bottom: 2px solid #ccc; /* adds 2px bottom border with light gray color */
+  font-size: 18px; /* sets font size to 18px */
+  padding: 10px; /* adds 10px padding */
+  margin-bottom: 20px; /* adds 20px margin to the bottom */
+}
+
+.my-form input[type="number"]:focus {
+  outline: none; /* removes outline */
+  border-color: #6c757d; /* sets border color to gray on focus */
+}
+
+.my-form .form-check-input {
+  margin-right: 10px; /* adds 10px margin to the right */
+  background-color: coral;
+}
+
+/* Hide the original radio button */
+.form-check-input[type="radio"] {
+  display: none;
+}
+
+/* Create a custom radio button using the label */
+.form-check-label {
+  position: relative;
+  padding-left: 30px;
+}
+
+.form-check-label:before {
+  content: "";
+  position: absolute;
+  left: -25px;
+  top: 50%;
+  width: 16px;
+  height: 16px;
+  border: 2px solid coral;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+}
+
+/* Create a small circle within the custom radio button */
+.form-check-input[type="radio"]:checked + .form-check-label:after {
+  content: "";
+  position: absolute;
+  left: -21px;
+  top: 50%;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  transform: translateY(-50%);
+  background-color: coral;
+}
+@media (max-width: 768px) {
+  .title-box h2 {
+    font-size: 24px; /* sets font size to 24px */
+  }
+
+  .my-form label {
+    font-size: 14px; /* sets font size to 14px */
+  }
+
+  .my-form input[type="number"] {
+    font-size: 16px; /* sets font size to 16px */
+    padding: 8px; /* adds 8px padding */
+    margin-bottom: 15px; /* adds 15px margin to the bottom */
+  }
+
+  .my-form button[type="submit"] {
+    font-size: 16px; /* sets font size to 16px */
+  }
+
+  .my-form {
+    margin-left: 0; /* removes left margin */
+  }
+
+  .title-box i {
+    font-size: 36px; /* sets font size to 36px */
+  }
+  .contact-info{
+    font-size:0.5rem;
+
+  }
+}
+
+.gender-group {
+  margin-bottom: 20px; /* adds 20px margin to the bottom */
+}
+
+.gender-group label {
+  display: flex; /* sets display to flex */
+  align-items: center; /* aligns items to center */
+}
+
+.icon-gender {
+  padding-top: 10px; /* adds 10px padding to the top */
+  padding-bottom: 15px; /* adds 15px padding to the bottom */
+  color: coral; /* sets color to coral */
+  margin-right: 10px; /* adds 10px margin to the right */
+}
+
+.form-group label {
+  display: flex; /* sets display to flex */
+  align-items: center; /* aligns items to center */
+}
+.form-control:focus,
+.form-control:hover {
+  border-color: coral;
+  box-shadow: 0 0 0 0.2rem rgba(255, 127, 80, 0.25);
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.icon-announcement {
+  margin-right: 20px; /* Adjust this value to control the space between the image and the heading */
+}
+
+.cover-letter-container {
+  display: flex;
+  align-items: center;
+}
+
+.icon-letter {
+  margin-right: 10px;
+}
+
+.icon-bmi {
+  background-image: url("pics/bmi.png");
+  display: inline-block;
+  background-size: cover;
+  margin-right: 5px;
+  width: 60px;
+  height: 60px;
+}
+.icon-height {
+  background-image: url("pics/height.png");
+  display: inline-block;
+  background-size: cover;
+  margin-right: 5px;
+  width: 60px;
+  height: 60px;
+}
+.icon-weight-loss {
+  background-image: url("pics/weight-loss.png");
+  display: inline-block;
+  background-size: cover;
+  margin-right: 5px;
+  width: 60px;
+  height: 60px;
+}
+.icon-equality {
+  background-image: url("pics/equality.png");
+  display: inline-block;
+  background-size: cover;
+  margin-right: 5px;
+  width: 60px;
+  height: 60px;
+}
+.icon-bmi-result {
+  background-image: url("pics/bmi-result.png");
+  display: inline-block;
+  background-size: cover;
+  margin-right: 5px;
+  width: 60px;
+  height: 60px;
+}
+
+.icon-contact-us {
+  background-image: url("pics/contact-us.png");
+  display: inline-block;
+  background-size: cover;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  width: 45px;
+  height: 45px;
+}
+
+.icon-phone-call {
+  background-image: url("pics/phone-call.png");
+  display: inline-block;
+  background-size: cover;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  width: 45px;
+  height: 45px;
+}
+.icon-mail{
+  background-image: url("pics/mail.png");
+  display: inline-block;
+  background-size: cover;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  width: 45px;
+  height: 45px;
+}
+.icon-announcement{
+  background-image: url("pics/announcement.png");
+  display: inline-block;
+  background-size: cover;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  width: 60px;
+  height: 60px;
+}
+.icon-id-card{
+  background-image: url("pics/id-card.png");
+  display: inline-block;
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+}
+.icon-gmail{
+  background-image: url("pics/gmail.png");
+  display: inline-block;
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+}
+.icon-phone{
+  background-image: url("pics/phone.png");
+  display: inline-block;
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+}
+.icon-birthday{
+  background-image: url("pics/birthday.png");
+  display: inline-block;
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+}
+.icon-suitcase{
+  background-image: url("pics/suitcase.png");
+  display: inline-block;
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+}
+.icon-experience{
+  background-image: url("pics/experience.png");
+  display: inline-block;
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+}
+.icon-avatar{
+  background-image: url("pics/avatar.png");
+  display: inline-block;
+  background-size: cover;
+  width: 38px;
+  height: 38px;
+}
+.icon-letter{
+  background-image: url("pics/letter.png");
+  display: inline-block;
+  background-size: cover;
+  width: 38px;
+  height: 38px;
+}
+.icon-cv{
+  background-image: url("pics/cv.png");
+  display: inline-block;
+  background-size: cover;
+  width: 38px;
+  height: 38px;
+}
+.contact-info {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 1rem;
+}

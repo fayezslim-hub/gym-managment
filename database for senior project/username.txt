@@ -1,0 +1,5 @@
+admin@admin.com
+123
+
+client password 1234
+trainer password 12345
